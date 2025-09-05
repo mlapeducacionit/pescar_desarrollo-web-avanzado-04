@@ -37,3 +37,34 @@ body {
     /* box-shadow: horizontal-x vertical-y difuminado expasión/reducción color; */
     box-shadow: 20px 20px 5px 20px rgba(0, 0, 0, .7);
 }
+
+.box--4 {
+    background-color: blueviolet;
+    box-shadow: -13px -18px 12px 0px rgba(174, 160, 7, 0.729),
+                15px 15px 10px 12px #860a0a;
+}
+
+.box--5 {
+    background-color: rebeccapurple;
+    box-shadow: inset 4px 4px 7px 5px rgb(56, 28, 85);
+}
+
+.box--6 {
+    background-color: rebeccapurple;
+    box-shadow: inset 10px 10px 7px 5px rgb(56, 28, 85),
+                10px 10px 8px 2px red;
+}
+
+.box--7 {
+    background-image: 
+        linear-gradient(rgb(48, 48, 48, .5), rgb(70, 70, 238, .5)),
+        url('/imgs/baby.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow:  inset 5px 4px 7px -2px rgb(0 0 0 / 30%), 
+                 -20px 8px 0 #6528f7, 
+                 16px 20px 0 -4px #d7bbf5, 
+                 9px -16px 0 -4px #ede4ff;
+
+}
