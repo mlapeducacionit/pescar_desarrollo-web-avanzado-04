@@ -8,3 +8,71 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #ddd;
 }
+
+.box {
+    background-color: purple;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    color: #eee;
+    float: left; /* propiedad antigua */
+}
+
+.box--1 {
+    background-color: #57db75;
+    border-radius: 20px; /* shorthand */
+}
+.box--2 {
+    background-color: #346ede;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.box--3 {
+    background-color: #0d053b;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 5px;
+}
+.box--4 {
+    background-color: #387a96;
+    border-radius: 20px 100px 2px 50px;
+}
+.box--5 {
+    background-color: #41358a;
+    /* En diagonal gestiono los bordes con este shorthand */
+    /*            ar-izq/ab-der ar-der/ab-izq */
+    border-radius: 10px 40px;
+}
+.box--6 {
+    background-color: #6a87eb;
+    /* En diangola gestiono los bordes con este shorthand */
+    /*             ar-izq ar-der/ab-izq ab-der */
+    border-radius: 5px 25px 100px;
+}
+.box--7 {
+    background-color: #cfcf38;
+    border-radius: 50%;
+}
+.box--8 {
+    background-color: #a8440f;
+    border-radius: 100px;
+}
+.box--9 {
+    background-color: #567141;
+    /*            all-x / all-y */
+    border-radius: 50px / 20px; 
+}
+.box--10 {
+    background-color: #2efb3f;
+    /*            ar-izq-x ar-der-x ab-izq-x ab-der-x / ... */
+    border-radius: 20px 100px 2px 50px / 10px 50px 4px 25px; 
+}
+
+.box--11 {
+    /* https://9elements.github.io/fancy-border-radius/#44.22.39.47--. */
+    background-image: linear-gradient(crimson, orange, yellow);
+    border-radius: 22% 78% 53% 47% / 44% 39% 61% 56%;
+}
