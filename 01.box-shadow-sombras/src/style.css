@@ -1,0 +1,33 @@
+* { /* todas etiquetas html */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ddd;
+}
+
+.box {
+    border: 3px solid #aaa;
+    background-color: #f5f5f5;
+    width: 70%; /* w70p */
+    height: 200px; /* h200 */
+    margin: 100px;
+    text-align: center;
+    padding-top: 20px; /* pt20 */
+    border-radius: 10px; /* brs10 */
+}
+
+.box--1 {
+    box-sizing: content-box; /* content-box (valor por defecto) */
+    width: 200px;
+    height: 200px;
+}
+
+.box--2 {
+    box-sizing: content-box; /* content-box (valor por defecto) */
+    width: 200px;
+    height: 200px;
+}
